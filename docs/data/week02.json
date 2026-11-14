@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "week": 2,
+  "chapter_ids": [
+    "ch02"
+  ],
+  "title": "Week 2｜營運與供應鏈策略",
+  "coverage": "PDF 6 頁＋逐字稿 143 個定位段；含預習與未完學生報告，非完整教科書",
+  "concepts": [
+    {
+      "concept_id": "ch02-strategy",
+      "title": "策略框架：選擇競爭方向，再配置流程",
+      "body": "管理問題：為什麼先決定策略，再談庫存、流程與供應商？\n本週開頭指出，策略先定，後續流程規劃才有依據。課堂在 AAAA 討論中要求找出一至兩個重點方向，不是所有能力都想同時做到最好。\n整合框架（整理）：顧客／市場需求 → 選擇競爭重點 → 配置供應鏈與流程 → 檢查交付的價值是否一致。此框架綜合課堂與 PDF 預習，並非老師逐字給出的固定步驟。\nTrade-off：資源有限時，強化一項能力可能犧牲另一項。不能把「優先順序」誤解成其他能力完全不必達標。\n跨週連結：第一週說明跨組織管理邊界；第二週進一步問，這些組織與資源要共同支持哪種價值。",
+      "rapid": "先問服務誰、靠什麼競爭，再決定流程。AAAA 本週要求選一至兩項策略重點，不是什麼都不做取捨。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0001"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0051"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0133"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.1"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.4"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-bullwhip",
+      "title": "長鞭效應：訂單波動不等於真實需求",
+      "body": "核心機制：終端需求稍有變化，各層為了保險加 buffer、補庫存或重複下單，向上游傳遞的訂單波動可能被放大。\n本週兩個觀察：越上游承受的變動與不確定性越大；需求變化到達上游的時間越延遲。這是本週討論的典型情境，不是說每一條供應鏈都必然如此。\n課堂晶片示例：真實需要 1,000 單位，怕配不到而下 3,000，再經兩個管道各下 2,000，訂單總量變成 7,000。這是同一需求的誇大與重複，不是 7,000 單位的新增最終需求。\n管理含意（整理）：擴產決策前，要分辨最終使用需求、補庫存與重複訂單。不能僅看接到多少訂單就推論市場長期成長。\n易錯：上游獲利高或單純缺貨，單獨都不足以證明長鞭效應；要指出需求訊號如何逐層放大。課堂對企業與年份的敘述未另作時事查核。",
+      "rapid": "長鞭看「波動放大＋訊號延遲」。1,000 的真需求可能變成 7,000 的訂單；訂單不是終端需求。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0012"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0013"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0014"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0015"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0018"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0019"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0020"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0048"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0049"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-delays",
+      "title": "安全緩衝與資訊延遲如何互相放大",
+      "body": "老師用機場集合與紅綠燈作生活類比：旅程越多段，每段都加安全時間，合計緩衝就可能很大；車隊後方還要等待前車依次反應。\n對應供應鏈：消費者、經銷商、通路商與製造商之間，訂單資訊傳遞需時間；物流尚在途中時又擔心缺貨，再下新單，使訊號更難判讀。\n分析步驟（整理）：畫資訊路徑 → 標每段延遲 → 分清在途貨與真正短缺 → 看哪些訂單是重複或加 buffer。\n類比界線：機場通勤與車隊反應是在說累積緩衝／延遲，不能直接當作實證的供應鏈長鞭係數。本週未教授訂單變異數與需求變異數的正式計算式。",
+      "rapid": "把資訊在途與貨物在途分開；尚未收到貨，不代表前一張訂單不存在。生活例子是類比，不是計算公式。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0044"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0047"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0048"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0049"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-agile",
+      "title": "Agile：應付同一客群的短期需求變化",
+      "body": "課堂定義：同一群消費者在短時間內需求改變，供應鏈能迅速調整並滿足。\n判準不只速度：隔日送達代表配送快；若突然爆量卻缺貨、找不到供應商或運能，整條供應鏈未必敏捷。\n外送案例：平常 2,000 單，突然 3,000 單，需確認是否真的新增可用運能。提高小費若只把同一批外送員由別單移來，未必增加整體承接能力。\nZARA、活動後加開交通班次是課堂案例；抓其設計、製造、配送或調度配合需求的機制，不把未查核的品牌時程當必考數字。\n易錯：主動促銷是供給端刺激需求，單憑做促銷不能證明已具備應對未預期需求的能力。",
+      "rapid": "Agile 是需求改變後能調整，不等於單純送很快、做促銷或照節日事先備貨。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0058"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0062"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0063"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0064"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0065"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0067"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0071"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0072"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0074"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0075"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-adaptable",
+      "title": "Adaptable：因經濟或地區變動重配供需",
+      "body": "課堂判準：供給或需求在經濟、地理區域層面大幅改變，供應鏈可調適。不能只背「長期」：老師也把短時間的區域需求集中列為可適應案例。\n案例：某區登革熱需求上升，跨區調防蚊液；重大燒燙傷事件造成醫療需求集中，跨區調度設備與醫療資源。此處保留管理機制，不確認事件醫療細節或成效數字。\n加油站討論的前提差異：若原加油需求下降，有限場地轉成充電設施，課堂視為 Adaptable；若原本業務未受影響，另增服務不同客群的產品線，課堂偏向 Aligned。\n可適應不等於每次內部故障都算：老師不接受僅因公司自動化系統故障而臨時另建工廠的例子，因它不一定是外部經濟或地域供需變化。\n答題先交代「外部變化、受限資源、重配置什麼」，再選標籤。",
+      "rapid": "Adaptable 不只看長短期；本週尤其看經濟／地區供需變動與資源重配置。先講案例前提。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0058"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0080"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0081"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0088"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0089"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0090"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0091"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0092"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0099"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0106"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-aligned",
+      "title": "Aligned 的兩個來源語境：不能混成同一定義",
+      "body": "PDF 預習 p.3：上下游成員目標與利益能協調一致。\n本週口頭講解與案例：以多種產品／產品線滿足不同客群，而非要求所有客人配合同一產品。洗髮精、不同運動品項與餐飲產品線是老師接受的例子。\n兩者有實質差異。本次沒有外部教材或完整投影片可確認差異來源，因此並列，不把其中一種偷偷改成另一種。\n使用方式：題目寫「依本週課堂分類」時，採多元產品線與客群配合的語境；若問 PDF 預習，則回到上下游目標與利益一致。跨來源比較時主動交代依據。\n加油站的前提判讀：本業不受影響、額外新增充電產品線，課堂偏向 Aligned；若需求結構轉移而重配場地，則偏 Adaptable。不能只憑「有充電站」下結論。",
+      "rapid": "Aligned 來源有差異：預習談上下游利益一致，課堂談多產品線滿足不同客群。題目先限定語境。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0058"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0060"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0061"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0081"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0084"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0085"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0106"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0133"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "evidence": "來源定義差異，需並列"
+    },
+    {
+      "concept_id": "ch02-architected",
+      "title": "Architected：以模組化回應持續變化",
+      "body": "課堂定義：以可組合、替換的模組設計或實作，回應常態而持續的需求變化。\n例子：ERP 選財會、人資、製造等模組；衣櫃共用櫃體搭不同抽屜；電腦、車款與手環的選配。\n「可客製」不必然「有模組」：從零重設每個訂單與在既定介面／規格內選配不同。要說明哪些部分共用、哪些可替換、如何組合。\n僅與供應商自動補貨或系統連線，不足以證明 Architected；老師要求指出 modular 與 constant change 的關係。\n本週策略選擇不是品牌永久標籤；同公司不同產品線也可能採不同配置。",
+      "rapid": "看到「選配」先問模組與介面在哪裡；有客製或 ERP 連線，不代表必然模組化。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0108"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0110"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0111"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0112"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0113"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0114"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0116"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0120"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0122"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0123"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0124"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0134"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-sku",
+      "title": "27 種組合與 9 種模組：數量的口徑",
+      "body": "公式：若有 k 個模組群，第 i 群有 nᵢ 種選擇，且每群恰選一種、所有搭配都相容，成品組合數 N＝∏nᵢ；需備妥的模組種類 M＝Σnᵢ。\n課堂 ABC 例：每群 3 種，N＝3×3×3＝27 種成品選擇；M＝3＋3＋3＝9 種模組。\n單位：以上是「種類」，不是庫存件數、金額或可組裝台數。實際可交付數量還受每種模組的庫存件數與配比限制。\n重要口徑：老師比較的是先備成品的 27 種與備模組的 9 種，不等於 ERP 系統從此只剩 9 個編號；成品、BOM 或銷售配置仍可能另有記錄。\nSKU（Stock Keeping Unit）辨識可獨立管理的品項。飲料單瓶與三瓶促銷組可有不同 SKU，不能只用口味計數。\n限制：若配件不相容、有禁止組合或未開放所有搭配，不能直接相乘。上述一般化公式由課堂 3×3×3 與 3＋3＋3 推廣，是本次整理。",
+      "rapid": "27 是可能成品組合；9 是共用模組種類。不要把品項種類、件數、ERP 全部編號混為一談。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0126"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0129"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0131"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-inventory",
+      "title": "接單後組裝不代表原料零庫存",
+      "body": "模組化的庫存效益來自共用零件、延後特定成品組合及降低錯配風險，不是不用準備任何物料。\n逐字稿 w02-t-0125 學生提到接單後再備料，老師接受為可能做法；後續 9 種模組例則隱含先準備共用模組。PDF 也註記「假設較多庫存放在原物料」的成立條件。\n因此需區分：原物料／模組庫存、在製品、成品庫存；接單後生產或組裝通常先影響成品庫存，原物料如何備要另看前置時間、供應商與交期承諾。\nPDF p.6 的零庫存／豐田式生產系統與 VMI Hub 只屬簡短筆記，本次逐字稿沒錄到對應老師解說。不能據此斷言整條鏈零庫存或將庫存移給供應商就代表消失。\n本週沒有足夠資料做持有成本計算，因此數值練習只處理明確條件的組合與模組數。",
+      "rapid": "少備成品不等於不備原料。問庫存先標位置、所有者與前置時間；VMI／零庫存說法待補。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0125"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0139"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0140"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "evidence": "課堂＋筆記對照"
+    },
+    {
+      "concept_id": "ch02-prestudy",
+      "title": "競爭維度、Qualifier／Winner 與 Lean／Agile",
+      "body": "本節為 PDF p.1–4 的預習資料；本份逐字稿未完整講解這些框架。它們可幫助讀個案，但不標作本週已完整授課。\n競爭維度：價格、品質、交貨速度、交貨可靠度、因應需求變動、彈性與新品推出速度。速度問多久送到；可靠度問是否按承諾交付。\nOrder Qualifier 是進入顧客考慮範圍的門檻；Order Winner 是促成選擇的因素。同一因素的角色要依客群與情境判定，不是品質永遠是門檻、價格永遠勝出。\nLean／Efficient 強調效率、低成本與減少浪費，預習配對較穩定需求；Agile／Responsive 強調快速回應與彈性，配對較不確定的需求。是預習的比較框架，不宣稱兩者絕對不能並用。\nSand Cone 預習列 Quality → Dependability → Speed → Flexibility → Cost，用以表示能力可逐步累積；此次缺少老師對模型條件、版本與 Trade-off 關係的解釋，先保留原序列，不將它當普遍定律。\n同時記「當下要取捨」與「能力可逐步建立」，不能只背箭頭而忽略假設與時間尺度。",
+      "rapid": "預習限定：Speed＝多久；Reliability＝守承諾。Qualifier＝門檻；Winner＝勝出理由。砂錐模型序列仍待授課確認。",
+      "sources": [
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.1"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.2"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.4"
+        }
+      ],
+      "evidence": "僅 PDF 預習，未完整錄得講解"
+    },
+    {
+      "concept_id": "ch02-timbuk2",
+      "title": "Timbuk2：兩種產品線的配置比較（暫定）",
+      "body": "來源身分：以下來自逐字稿最後的學生報告，尚無完整個案原文、另一組報告或老師最後講評。不能將學生推論當公司事實。\n報告主張：舊金山線以客製化、獨特性、耐用與接單後製作為重點；中國線以較標準化產品、價格價值與機器製程配合為重點。\n比較框架：顧客價值 → 客製程度 → 產量與速度 → 技能與自動化 → 原料／成品庫存 → 運輸前置時間 → 總供應鏈成本。\n原料庫存是待核對點：學生說客製線較低，但又說為了選配要先備料；原料與成品不能合併判斷。中國線也不必然在所有庫存項目都更高。\n成本不要只看工資：學生提出國際運輸、裝卸與通關、持有庫存與資金占用、品質監督、匯率及風險。但報告在匯率段中途結束，缺完整資料，不計算或斷言哪條線總成本必然最低。\n個案題提供分析要點自評，不把推論寫成唯一標準答案。",
+      "rapid": "Timbuk2 暫記「不同價值 → 不同流程」，不是哪國生產一定好。學生報告未完；原料庫存與總成本待核對。",
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0135"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0136"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0137"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0138"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0139"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0140"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0141"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0142"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0143"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "evidence": "學生報告，缺個案原文與老師講評"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "w02-q-01",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-bullwhip"
+      ],
+      "type": "choice",
+      "prompt": "同一批真實需求只有 1,000 單位，買方卻經三個管道共下 7,000。上游擴產前最應先確認什麼？",
+      "hint": "分清訂購數與最終使用數。",
+      "steps": [
+        "比對終端需求與訂單來源。",
+        "辨識重複訂單及配貨擔憂，再評估長期產能。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0018"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0019"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0020"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "是否所有訂單都是新增最終需求",
+        "只要有訂單就立即擴產七倍",
+        "把七個單位當成七種 SKU",
+        "只看上游股價"
+      ],
+      "answer": 0,
+      "explanations": [
+        "正確：辨別誇大與重複訂單。",
+        "忽略真需求與短期恐慌。",
+        "訂單量不是品項種類。",
+        "股價不代表終端需求。"
+      ]
+    },
+    {
+      "question_id": "w02-q-02",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-delays"
+      ],
+      "type": "choice",
+      "prompt": "下游因等不到在途貨再下一張相同訂單，最能說明哪種機制？",
+      "hint": "上次訂單可能還在路上。",
+      "steps": [
+        "貨物到達需要時間。",
+        "等待被解讀成供給不足，再訂貨造成失真。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0049"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "提高最終顧客需求七倍",
+        "資訊與物流延遲促使訂單再放大",
+        "需求資料往上游就是逆物流",
+        "服務一定沒有供應鏈"
+      ],
+      "answer": 1,
+      "explanations": [
+        "重複下單不代表新增消費。",
+        "正確：尚在途的貨被忽略，產生追加訊號。",
+        "第一週已區分資訊與物流。",
+        "無關且錯誤。"
+      ]
+    },
+    {
+      "question_id": "w02-q-03",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-agile"
+      ],
+      "type": "choice",
+      "prompt": "依本週課堂，某電商平常都隔日到貨，但需求突然翻倍便持續缺貨。哪項判斷較恰當？",
+      "hint": "快送與面對變化的能力不同。",
+      "steps": [
+        "判斷是否能取得足夠商品與運能。",
+        "單一配送速度不等於整體敏捷。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0074"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0075"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "配送快足以證明整鏈 Agile",
+        "只有宣稱促銷就算 Agile",
+        "配送快，但不能據此認定整鏈能應付突發需求",
+        "一定屬 Architected"
+      ],
+      "answer": 2,
+      "explanations": [
+        "忽略供應與庫存。",
+        "促銷不等於反應能力。",
+        "正確：需檢驗整鏈調整。",
+        "題目沒提供模組化證據。"
+      ]
+    },
+    {
+      "question_id": "w02-q-04",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-agile"
+      ],
+      "type": "choice",
+      "prompt": "外送平台加價後，同一批外送員只由甲單改接乙單，總完成量沒增加。可否單憑加價就證明敏捷？",
+      "hint": "檢查是新增運能，還是轉移既有運能。",
+      "steps": [
+        "計算總承接能力是否增加。",
+        "若只是移單，不能證明處理了新增需求。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0063"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0071"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0072"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "可以，加價就是能力",
+        "不可以，需確認是否滿足新增需求",
+        "可以，只要乙顧客滿意",
+        "不可以，因敏捷永遠不能用外包"
+      ],
+      "answer": 1,
+      "explanations": [
+        "價格不是履約能力。",
+        "正確：重分單不必然增加有效運能。",
+        "忽略未被服務的甲。",
+        "外包也可能有助敏捷，需看實際能力。"
+      ]
+    },
+    {
+      "question_id": "w02-q-05",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-adaptable"
+      ],
+      "type": "choice",
+      "prompt": "依本週課堂，加油需求大幅下降，場地有限，公司將部分加油區改為充電區，最符合？",
+      "hint": "原本業務是否受需求變化影響？",
+      "steps": [
+        "確認原加油需求下降。",
+        "有限空間改配符合課堂可適應語境。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0099"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0106"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "Aligned，因只要新增服務就一定是",
+        "Adaptable，因外部需求轉移而重配資源",
+        "Architected，因有電器",
+        "只要快就是 Agile"
+      ],
+      "answer": 1,
+      "explanations": [
+        "忽略原本需求下降與場地重配。",
+        "正確：交代需求結構與限制。",
+        "未說有模組化。",
+        "不是只比速度。"
+      ]
+    },
+    {
+      "question_id": "w02-q-06",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-aligned"
+      ],
+      "type": "choice",
+      "prompt": "只依本週口頭分類：原加油業務未受影響，公司另增產品線服務充電客群，老師偏向哪類？",
+      "hint": "題幹限定口頭分類，不是問外部通用定義。",
+      "steps": [
+        "本業未受影響。",
+        "額外產品線照顧不同客群，在本週課堂偏 Aligned。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0106"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "Aligned",
+        "必然是長鞭效應",
+        "必然是 Architected",
+        "兩個來源對 Aligned 定義完全相同"
+      ],
+      "answer": 0,
+      "explanations": [
+        "正確：採課堂的多元客群語境。",
+        "沒有訂單波動放大。",
+        "沒有模組證據。",
+        "PDF 預習與口頭講解存在差異。"
+      ]
+    },
+    {
+      "question_id": "w02-q-07",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-architected"
+      ],
+      "type": "choice",
+      "prompt": "哪一資訊最足以支持 Architected 的本週定義？",
+      "hint": "要找 modular 與 constant change。",
+      "steps": [
+        "說明哪些部件有共用規格。",
+        "模組組合或替換如何處理需求差異。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0111"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0112"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0114"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "使用 ERP 名稱",
+        "由既定相容模組選配，必要時替換局部以回應持續變化",
+        "承諾一天送達",
+        "每張訂單都從零重新設計且無共用部分"
+      ],
+      "answer": 1,
+      "explanations": [
+        "系統名稱不等於模組能力。",
+        "正確：模組、替換與常態變化具備。",
+        "只是配送速度。",
+        "可客製但未必有模組。"
+      ]
+    },
+    {
+      "question_id": "w02-q-08",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-sku"
+      ],
+      "type": "choice",
+      "prompt": "同口味飲料單瓶與三瓶促銷包各有獨立品項編號，應如何計數？",
+      "hint": "看獨立管理品項而非件數。",
+      "steps": [
+        "辨認各自獨立品項編號。",
+        "兩個銷售單位各算一種 SKU。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0131"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "一種 SKU，因口味相同",
+        "兩種 SKU，但不是說只有兩瓶庫存",
+        "四種 SKU，按瓶數相加",
+        "SKU 就是作業 Skill"
+      ],
+      "answer": 1,
+      "explanations": [
+        "包裝／銷售單位也可能不同。",
+        "正確：品項種類不同於庫存件數。",
+        "不能把瓶數當 SKU 數。",
+        "逐字稿的 Skill 為辨識錯誤。"
+      ]
+    },
+    {
+      "question_id": "w02-q-09",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-sku"
+      ],
+      "type": "numeric",
+      "prompt": "A、B、C 三群模組各有 3 種；每件成品每群恰選一種，所有搭配都相容。可提供幾種不同成品組合？",
+      "hint": "不同群用乘法，不是相加。",
+      "steps": [
+        "N＝3×3×3。",
+        "N＝27 種成品組合，不是 27 件庫存。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0126"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "label": "自編練習",
+      "answer": 27,
+      "tolerance": 0,
+      "unit": "種成品組合",
+      "rounding": "整數；輸入數字即可"
+    },
+    {
+      "question_id": "w02-q-10",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-sku"
+      ],
+      "type": "numeric",
+      "prompt": "沿用 A、B、C 各 3 種的例子：每一種模組分別備貨，不事先備全部成品。本題只問「需備貨的不同模組種類」，不是件數或 ERP 全部編號，共幾種？",
+      "hint": "這次問三群共有哪些模組，用加法。",
+      "steps": [
+        "M＝3＋3＋3。",
+        "M＝9 種模組；成品仍可有 27 種選擇。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "label": "自編練習",
+      "answer": 9,
+      "tolerance": 0,
+      "unit": "種模組",
+      "rounding": "整數；輸入數字即可"
+    },
+    {
+      "question_id": "w02-q-11",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-sku"
+      ],
+      "type": "numeric",
+      "prompt": "自編變化題：A 有 2 種、B 有 4 種、C 有 3 種；每件每群恰選一種且全相容。最多幾種成品組合？",
+      "hint": "只在每群恰選一種與全相容的條件下相乘。",
+      "steps": [
+        "N＝2×4×3。",
+        "N＝24 種。若有限制組合則需另扣除。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0126"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        }
+      ],
+      "label": "自編練習",
+      "answer": 24,
+      "tolerance": 0,
+      "unit": "種成品組合",
+      "rounding": "整數；輸入數字即可"
+    },
+    {
+      "question_id": "w02-q-12",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-aligned"
+      ],
+      "type": "self",
+      "prompt": "為什麼不應只背「Agile 短期、Adaptable 長期」？並交代 Aligned 的來源差異。",
+      "hint": "用跨區需求集中案例，再比較預習與口頭定義。",
+      "steps": [
+        "老師也把突發跨區調度列為 Adaptable；還要看地域與經濟層面的供需變化。",
+        "預習的 Aligned 談上下游利益一致，口頭例子談產品線滿足不同客群。",
+        "回答要指定來源與案例前提，不能用單一詞替代分析。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0058"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0080"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0089"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0106"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.3"
+        }
+      ],
+      "label": "自編練習",
+      "rubric": [
+        "說明僅用時間不足",
+        "提出區域供需與調度的證據",
+        "清楚並列 Aligned 兩種語境",
+        "未偷偷將其中一種改為唯一通則"
+      ]
+    },
+    {
+      "question_id": "w02-q-13",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-inventory"
+      ],
+      "type": "self",
+      "prompt": "同樣提供 27 種成品選擇，改備 9 種模組後，能否說「整條供應鏈零庫存，ERP 只剩 9 個 SKU」？",
+      "hint": "區分品項口徑、庫存位置與實際件數。",
+      "steps": [
+        "9 是共用模組種類，仍需準備每種模組的件數。",
+        "成品配置或 BOM 等記錄可能仍存在。",
+        "接單後組裝降低事先成品庫存，不等於原料、在製與供應商庫存消失。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0125"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0132"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0140"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.5"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.6"
+        }
+      ],
+      "label": "自編練習",
+      "rubric": [
+        "區分種類與件數",
+        "區分模組與全部系統編號",
+        "指出原料／在製／成品的位置",
+        "不無條件宣稱零庫存"
+      ]
+    },
+    {
+      "question_id": "w02-q-14",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-timbuk2"
+      ],
+      "type": "self",
+      "prompt": "根據已錄得的 Timbuk2 學生報告，請提出兩產線的比較框架，並指出至少兩項尚不能定論的事。",
+      "hint": "從價值主張走到流程，再看完整成本。",
+      "steps": [
+        "先以客製與標準化作比較起點，但標明屬學生報告。",
+        "比較技能、自動化、交期、原料與成品庫存，而不是只看國家。",
+        "總成本應考慮運輸、通關、持有成本、品質監督與風險。",
+        "原料庫存高低與哪線總成本最低尚不能定論；缺原文及完整講評。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0136"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0137"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0138"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0139"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0140"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0141"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0142"
+        },
+        {
+          "source_id": "w02-transcript",
+          "locator": "w02-t-0143"
+        }
+      ],
+      "label": "自編練習",
+      "rubric": [
+        "明確標示學生報告身分",
+        "比較流程與價值是否配合",
+        "分開原料與成品庫存",
+        "至少兩項待核對，不把推論寫成確定事實"
+      ]
+    },
+    {
+      "question_id": "w02-q-15",
+      "version": 1,
+      "chapter_ids": [
+        "ch02"
+      ],
+      "concept_ids": [
+        "ch02-prestudy"
+      ],
+      "type": "choice",
+      "prompt": "僅依 PDF 預習：供應商都先達基本品質門檻後，顧客最後因最低價格選中一家。在此特定情境何者正確？",
+      "hint": "限定題目給定的客群與選擇條件。",
+      "steps": [
+        "所有合格者先進入考慮範圍。",
+        "這次價格促成最後選擇。"
+      ],
+      "sources": [
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.1"
+        },
+        {
+          "source_id": "w02-notes",
+          "locator": "PDF p.2"
+        }
+      ],
+      "label": "自編練習",
+      "options": [
+        "品質是 Order Winner、價格是 Qualifier",
+        "品質門檻是 Qualifier、價格是 Winner",
+        "價格永遠是每個市場的 Winner",
+        "Speed 與 Reliability 完全相同"
+      ],
+      "answer": 1,
+      "explanations": [
+        "題目已明確指定選擇因素。",
+        "正確：先門檻，再勝出因素。",
+        "不可推為每個市場的通則。",
+        "一個問多久，一個問守承諾。"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "w02-issue-prestudy",
+      "kind": "來源分層",
+      "evidence": "PDF p.1–4 標「預習」；p.5–6 為課堂筆記。競爭維度、Sand Cone、Qualifier／Winner、Lean／Agile 未在本份逐字稿完整展開。",
+      "resolution": "分別標記預習、授課、學生報告；預習題明訂依 PDF 作答。",
+      "status": "已區分"
+    },
+    {
+      "id": "w02-issue-aligned",
+      "kind": "定義差異",
+      "evidence": "PDF p.3 談上下游目標利益一致；w02-t-0060、0061、0106 用多產品線與客群配合說明 Aligned。",
+      "resolution": "並列來源差異，不偷改成單一定義；課堂情境題限定語境。",
+      "status": "待投影片／老師確認"
+    },
+    {
+      "id": "w02-issue-adaptable",
+      "kind": "預習過度簡化",
+      "evidence": "PDF p.3 以短期 Agile、長期 Adaptable 對比；w02-t-0080–0090 也接受短期跨區調度為 Adaptable。",
+      "resolution": "優先依課堂前提、經濟／地域變化與資源配置解題，不只看時間。",
+      "status": "已澄清課堂語境"
+    },
+    {
+      "id": "w02-issue-sku",
+      "kind": "計數口徑",
+      "evidence": "w02-t-0132 用 27 成品與 9 模組比較；PDF p.5–6 摘成降低 SKU。",
+      "resolution": "區分成品組合、備貨模組種類、件數與全部 ERP 編號；明訂相容與每群一件假設。",
+      "status": "已補明成立條件"
+    },
+    {
+      "id": "w02-issue-vmi",
+      "kind": "筆記獨有",
+      "evidence": "PDF p.6 的 VMI Hub、豐田式生產及零庫存，未在本份逐字稿找到對應解說。",
+      "resolution": "保留待補，不產生其定義或零庫存的計分題。",
+      "status": "待補來源"
+    },
+    {
+      "id": "w02-issue-cutoff",
+      "kind": "逐字稿截斷",
+      "evidence": "w02-t-0143 停在學生報告匯率風險的未完句；未含完整個案、第二組與最後講評。",
+      "resolution": "個案僅列學生報告與自評框架；不把庫存高低推論當標準事實。",
+      "status": "待補完整個案與講評"
+    },
+    {
+      "id": "w02-issue-terms",
+      "kind": "辨識修訂",
+      "evidence": "長編／長邊／場面效應等；Skill／SKILL；Unlined／N-Line／Alive；Arctectic／Affected。",
+      "resolution": "依 PDF 與上下文整理為長鞭效應、SKU、Aligned、Architected，原始文字保留；人名與研究年份不列數字考點。",
+      "status": "交叉核對"
+    },
+    {
+      "id": "w02-issue-noise",
+      "kind": "辨識雜訊",
+      "evidence": "w02-t-0043 有長串重複笑聲；部分學生指涉的公司或產品不明。",
+      "resolution": "摘要省略雜訊，不補造公司名。機場與交通作類比，不當長鞭實證公式。",
+      "status": "已保留界線"
+    }
+  ],
+  "admin": "本週課綱對應 Ch2 O/SCM Strategy。第一週內容保留不覆寫。PDF 前四頁是預習；個案資料僅錄得部分學生報告。所有練習為自編，沒有證據支持某題必考。"
+}

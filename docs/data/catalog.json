@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "total_weeks": 16,
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Week 1｜營運與供應鏈管理導論",
+      "chapter_ids": [
+        "ch01"
+      ],
+      "file": "week01.json",
+      "concepts": 8,
+      "questions": 12
+    },
+    {
+      "week": 2,
+      "title": "Week 2｜營運與供應鏈策略",
+      "chapter_ids": [
+        "ch02"
+      ],
+      "file": "week02.json",
+      "concepts": 11,
+      "questions": 15
+    }
+  ]
+}
