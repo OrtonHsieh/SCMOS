@@ -1,0 +1,14 @@
+# Local course sources and derived transcript text
+/materials/
+/output/
+/skills/
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+
